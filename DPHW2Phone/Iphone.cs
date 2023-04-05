@@ -8,6 +8,7 @@ namespace DPHW2Phone
 {
     public class Iphone : Phone
     {
+        //concrete class
         public int GetCamreaCount()
         {
             return 2;

@@ -10,7 +10,7 @@ namespace DPHW2Phone
     {
         public Iphone11(Phone basicPhone) : base(basicPhone)
         {
-            base.basicPhone = basicPhone;
+            base.basicPhone = basicPhone; //extend etdiyi ucun  constructor olmalidi ve basicPhone veririk
         }
         public override int GetCamreaCount()
         {
